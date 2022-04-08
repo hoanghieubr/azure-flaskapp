@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    message = "Welcome to my site !!"
+    message = "Welcome to my site hahahaha !!"
     return render_template("index.html", message = message)
 
 @app.route("/hello/<name>", methods=['GET'])
