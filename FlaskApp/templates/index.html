@@ -7,13 +7,17 @@
             body {
                 font-family: "Lucida Console", "Courier New", monospace;
             }
+            .picture {
+                width: 100%;
+                max-width: 600px;
+            }
         </style>
     </head>
     <body>
         <p><b>{{ message }}</b></p>
 
         <b>This is me !!</b>
-        <p><img src="/static/images/hieu.jpg" width="500"></p>
+        <p><img class="picture" src="/static/images/hieu.jpg"></p>
         <p>This site is using Azure Function App.</p>
         <p><b>Test my APIs: /api/name/<name> or /api/product/<id></b></p>
 
